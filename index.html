@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partham Patel</title>
+
+    <!--------- ICONS CDN --------->
+    <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" rel="stylesheet"/>
+
+    <!--------- ICONS CDN --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--------- CSS FILE --------->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+
+    <!--------- NAVIGATION --------->
+    <div class="container">
+        <nav id="nav">
+            <div class="nav__logo">
+                <p class="nav__name">Pratham</p>
+            </div>
+            <div class="nav__menu" id="MyNavMenu">
+                <ul class="nav__menu__list">
+
+                    <li class="nav__list">
+                        <a href="#Home" class="nav__link active__link">Home</a>
+                        <div class="nav__circle"></div>
+                    </li>
+
+                    <li class="nav__list">
+                        <a href="#about__box" class="nav__link">About</a>
+                        <div class="nav__circle"></div>
+                    </li>
+
+                    <li class="nav__list">
+                        <a href="#Projects" class="nav__link">Projects</a>
+                        <div class="nav__circle"></div>
+                    </li>
+
+                    <li class="nav__list">
+                        <a href="#Contact" class="nav__link">Contact</a>
+                        <div class="nav__circle"></div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- DARKMODE -->
+            <div class="dark__mode">
+                <div class="moon__sun" id="toggle__switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav__menu__btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    </div>
+
+    <!--------- MAIN --------->
+    <main class="wrapper">
+
+        <!--------- HOME --------->
+        <section class="featured__box" id="Home">
+            <div class="featured__text">
+                <div class="hello">
+                    <p>Hello I'am</p>
+                </div>
+                <div class="featured__name">
+                    <span class="typed__text">
+                    
+                    </span>
+                </div>
+                <div class="text__info">
+                    <p>My Name is Pratham!! I am a Frontend Web devloper</p>
+                </div>
+                <div class="text__btn">
+                    <button class="btn">Download CV <i class="uil uil-file"></i></button>
+                </div>
+                <div class="social__icons">
+                    <div class="icon__circle"></div>
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon"><i class="uil uil-twitter-alt"></i></div>
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </div>
+            </div>
+            <div class="featured__image">
+                <div class="main__image">
+                    <img src="./assets/images/5371931_33466.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--------- ABOUT BOX --------->
+        <section class="section" id="about__box">
+            <div class="header__top">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about__info">
+                        <figure class="about__me">
+                            <figcaption>
+                                <img src="./assets/images/man_7790097.png" class="profile" alt="" />
+                                <h2>Frontend Web developer</h2>
+                                <p>My Name is Pratham!! I am a Frontend Web devloper</p>
+                        </figure>
+                        <button class="about__me__btn">Hire me</button>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="skill__box">
+                        <span class="title">HTML</span>
+                        <div class="skill__bar">
+                            <span class="skill__per html">
+                                <span class="tooltip">70%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill__box">
+                        <span class="title">CSS</span>
+                        <div class="skill__bar">
+                            <span class="skill__per css">
+                                <span class="tooltip">60%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill__box">
+                        <span class="title">JavaScript</span>
+                        <div class="skill__bar">
+                            <span class="skill__per JavaScript">
+                                <span class="tooltip">40%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill__box">
+                        <span class="title">Python</span>
+                        <div class="skill__bar">
+                            <span class="skill__per Python">
+                                <span class="tooltip">50%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------- PROJECTS SECTION -------->
+        <section class="section" id="Projects">
+            <div class="header__top">
+                <h1>Projects</h1>
+            </div>
+            <div class="project__container">
+
+                <div class="project__box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>completed</h3>
+                    <label>Lorem ipsum dolor sit amet.</label>
+                </div>
+
+                <div class="project__box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>clients</h3>
+                    <label>Lorem ipsum dolor sit amet.</label>
+                </div>
+
+                <div class="project__box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experience</h3>
+                    <label>Lorem ipsum dolor sit amet.</label>
+                </div>
+               
+            </div>
+        </section>
+
+         <!---------- CONTACT --------->
+         <section class="section" id="Contact">
+            <div class="header__top">
+                <h1>Let's Work Together</h1>
+                <span>Do you have a project in your mind, contact me here </span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact__info">
+                        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i>Email:prathampatel8685@gmail.com</p>
+                        <p><i class="uil uil-phone"></i>Phone:9875262166</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form__control">
+                        <div class="form__inputs">
+                            <input type="text" class="input__field" placeholder="Your Name">
+                            <input type="text" class="input__field" placeholder="Your Email">
+                        </div>
+                        <div class="text__area">
+                            <input type="text" class="input__sub" placeholder="Subject">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form__btn">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+    </main>
+
+    <!--------- FOOTER ---------->
+    <footer>
+        <div class="middle__footer">
+            <ul class="footer__menu">
+                
+                <li class="footer__menu__list">
+                    <a href="#Home">Home</a>
+                </li>
+                <li class="footer__menu__list">
+                    <a href="#about__box">About</a>
+                </li>
+                <li class="footer__menu__list">
+                    <a href="#Projects">Projects</a>
+                </li>
+                <li class="footer__menu__list">
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__social__icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-twitter-alt"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom__footer">
+            <p>copyright &copy; <a href="#Home" style="text-decoration: none;">Pratham Patel</a> - All rights reserverd 2024</p>
+        </div>
+    </footer>
+
+     <!--------- TYPED TEXT---------> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    
+    <!--------- JS FILE --------->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
