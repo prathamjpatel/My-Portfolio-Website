@@ -35,7 +35,7 @@ The website is designed to be responsive and compatible with various devices, in
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/[username]/[repository-name].git
+   git clone https://github.com/prathamjpatel/My-Portfolio-Website.git
    ```
 
 2. Open the `index.html` file in your web browser to view the website locally.
