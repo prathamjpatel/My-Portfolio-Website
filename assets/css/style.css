@@ -601,17 +601,18 @@ i{
     cursor: pointer;
 }
 
-.contact__info h2{
-    color: var(--text-color);
-    margin-bottom: 20px;
-}
-
-.contact__info p{
-    display: flex;
+.contact__info ol{
+    /* display: flex; */
+    list-style-type:decimal;
     align-items: center;
     gap: 10px;
     color: var(--text-color);
     margin-block: 5px;
+}
+
+.contact__info ol li a{
+    color: #8749f2;
+    text-decoration: none;
 }
 
 .contact__info::after{
@@ -619,12 +620,20 @@ i{
 }
 
 .contact__info:hover.contact__info h2,
-.contact__info:hover.contact__info p,
-.contact__info:hover.contact__info i{
+.contact__info:hover.contact__info a
+{
     color: #fff;
     z-index: 2;
 }
+.contact__info:hover.contact__info ol{
+    color: #070F2B;
+    z-index: 2;
 
+}
+.contact__info a:hover
+{
+   text-decoration: underline;
+}
 /* ----------CONTACT FORM----------*/
 
 .form__control{
